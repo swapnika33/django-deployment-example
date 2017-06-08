@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+    <center>
+    <h1 style="color:red">WELCOME TO INDEX</h1>
+    <h2 style="color:lightpink">This is an Example of  template inheritance</h2><br>
+
+      <a href="{% url 'basic_app:other'%}">The Other page</a><br>
+        <a href="{% url 'basic_app:relative'%}">The Relative page</a><br>
+        <a href="{% url 'admin:index' %}">Link to Admin</a><br>
+        <h3>{{text|cut:'World'}}</h3>
+        <h4>{{number|add:"99"}}</h4>
+  </center>
+{% endblock %}
