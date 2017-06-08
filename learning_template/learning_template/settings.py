@@ -25,7 +25,7 @@ SECRET_KEY = 'nl3(d_c=p(+$1al^2*8x!tepi$irup$ym1dlv=e#$33n&tee-!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
